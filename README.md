@@ -98,15 +98,11 @@ compare your own run against them.
 | `results-macbook-gemma4-12b.json` | MacBook M4 Pro, gemma4:12b |
 | `results-macbook-qwen3-8b.json` | MacBook M4 Pro, qwen3:8b |
 | `results-macbook-deepseek-r1-8b.json` | MacBook M4 Pro, deepseek-r1:8b |
-| `bench-local.json` | MacBook M4 Pro, gemma3:12b |
-| `bench-colab.json` | Colab A100-SXM4-80GB |
-| `bench-colab-t4.json` | Colab Tesla T4 |
 | `bench-colab-tesla-t4-gemma3-12b.json` | Colab T4, gemma3:12b |
 | `bench-colab-tesla-t4-gemma4-12b.json` | Colab T4, gemma4:12b |
 | `bench-colab-tesla-t4-qwen3-8b.json` | Colab T4, qwen3:8b |
 | `bench-colab-tesla-t4-deepseek-r1-8b.json` | Colab T4, deepseek-r1:8b |
-| `executed-colab.ipynb` | a full run with its outputs, A100 |
-| `executed-colab-t4.ipynb` | a full run with its outputs, T4 |
+| `executed-tokenomics_colab-t4.ipynb` | a full run with its outputs, T4 |
 
 `cache_report.py` is a CLI tool and is not imported by the notebook — run it
 directly.
