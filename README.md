@@ -7,7 +7,7 @@ you how far apart those two answers are.
 It runs on a **free Colab runtime — no API key, no billing account** — by
 serving a local model through [Ollama](https://ollama.com).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/acn-codeeurope/ai-tokenomics/blob/main/tokenomics_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/acn-codeeurope/ai-tokenomics/blob/main/tokenomics_colab.ipynb?hl=en)
 
 Companion code for the talk *AI Tokenomics*, Code Europe, Warsaw,
 15 September 2026.
