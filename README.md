@@ -98,11 +98,9 @@ compare your own run against them.
 | `results-macbook-gemma4-12b.json` | MacBook M4 Pro, gemma4:12b |
 | `results-macbook-qwen3-8b.json` | MacBook M4 Pro, qwen3:8b |
 | `results-macbook-deepseek-r1-8b.json` | MacBook M4 Pro, deepseek-r1:8b |
-| `results-macbook-deepseek-r1-8b-BADPARSE.json` | the same run before a parser bug was fixed — kept deliberately, see below |
 | `bench-local.json` | MacBook M4 Pro, gemma3:12b |
 | `bench-colab.json` | Colab A100-SXM4-80GB |
 | `bench-colab-t4.json` | Colab Tesla T4 |
-| `bench-colab-bad.json` | an A100 run that was mislabelled — kept deliberately, see below |
 | `bench-colab-tesla-t4-gemma3-12b.json` | Colab T4, gemma3:12b |
 | `bench-colab-tesla-t4-gemma4-12b.json` | Colab T4, gemma4:12b |
 | `bench-colab-tesla-t4-qwen3-8b.json` | Colab T4, qwen3:8b |
@@ -156,11 +154,6 @@ files from the runs behind it ship alongside it. Two things will bite you:
   only while memory allows. When it does not, `prompt_eval_count` reports the
   ceiling and nothing anywhere says input was thrown away. `runner.py` carries
   an independent estimate specifically to catch this.
-
-`results-macbook-deepseek-r1-8b-BADPARSE.json` and `bench-colab-bad.json` are the
-runs that went wrong, kept on purpose. **No code reads them** — they are here so
-that the failures are as public as the successes. Deleting them would leave only
-the flattering results, which is the thing this repository argues against.
 
 ---
 
