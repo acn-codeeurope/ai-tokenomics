@@ -1,0 +1,69 @@
+{
+ "env": {
+  "label": "macbook M4 Pro",
+  "colab": false,
+  "when": "2026-09-13T08:28:22+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "cpu_count": 14,
+  "ram_gb": 48.0,
+  "gpu": "Apple M4 Pro \u2014 Metal, unified memory",
+  "python": "3.12.8",
+  "ollama": "0.20.4",
+  "model": "gemma3:12b",
+  "declared_ctx": 131072,
+  "warmup_seconds": 0.3,
+  "notes": "clean run: nothing else was touching the Ollama server. An earlier run of the identical workload under concurrent load took 29.0 min vs 17.0 min here (1.70x) with byte-identical token counts and identical accuracy \u2014 load moves the clock, not the measurement."
+ },
+ "items": 15,
+ "arch": {
+  "incident": {
+   "calls": 15,
+   "real_in": 212106,
+   "real_out": 401,
+   "est_in": 203378,
+   "est_out": 85,
+   "truncated": 0,
+   "in_ratio": 1.042915162898642,
+   "out_ratio": 4.7176470588235295,
+   "precision": 0.6007936507936509,
+   "recall": 0.9666666666666667,
+   "exact": 0.3333333333333333,
+   "seconds": 857.4865564150678,
+   "sec_per_call": 57.165770427671184,
+   "in_tokens_per_sec": 247.35781384930513
+  },
+  "scoped": {
+   "calls": 15,
+   "real_in": 17150,
+   "real_out": 454,
+   "est_in": 16224,
+   "est_out": 85,
+   "truncated": 0,
+   "in_ratio": 1.057075936883629,
+   "out_ratio": 5.341176470588235,
+   "precision": 0.5111111111111111,
+   "recall": 0.9333333333333333,
+   "exact": 0.2,
+   "seconds": 80.65227987602702,
+   "sec_per_call": 5.376818658401802,
+   "in_tokens_per_sec": 212.64123006022604
+  },
+  "fanout": {
+   "calls": 58,
+   "real_in": 21108,
+   "real_out": 287,
+   "est_in": 19558,
+   "est_out": 330,
+   "truncated": 0,
+   "in_ratio": 1.0792514572042131,
+   "out_ratio": 0.8696969696969697,
+   "precision": 0.47777777777777775,
+   "recall": 0.9666666666666667,
+   "exact": 0.13333333333333333,
+   "seconds": 84.70165645898669,
+   "sec_per_call": 1.4603733872239084,
+   "in_tokens_per_sec": 249.2040992164148
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "env": {
+  "label": "macbook M4 Pro / ollama 0.34",
+  "colab": false,
+  "when": "2026-09-13T19:14:47+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "cpu_count": 14,
+  "ram_gb": 48.0,
+  "disk_free_gb": 93,
+  "gpu": "Apple M4 Pro \u2014 Metal, unified memory",
+  "python": "3.12.8",
+  "ollama": "0.34.0",
+  "model": "gemma3:12b",
+  "declared_ctx": 131072,
+  "warmup_seconds": 5.8
+ },
+ "items": 15,
+ "arch": {
+  "incident": {
+   "calls": 15,
+   "real_in": 212121,
+   "real_out": 415,
+   "est_in": 203378,
+   "est_out": 85,
+   "truncated": 0,
+   "in_ratio": 1.0429889171886833,
+   "out_ratio": 4.882352941176471,
+   "precision": 0.6329365079365079,
+   "recall": 0.9666666666666667,
+   "exact": 0.4,
+   "seconds": 79.11503350094426,
+   "sec_per_call": 5.274335566729618,
+   "in_tokens_per_sec": 2681.171840715561
+  },
+  "scoped": {
+   "calls": 15,
+   "real_in": 17165,
+   "real_out": 454,
+   "est_in": 16224,
+   "est_out": 85,
+   "truncated": 0,
+   "in_ratio": 1.058000493096647,
+   "out_ratio": 5.341176470588235,
+   "precision": 0.5111111111111111,
+   "recall": 0.9333333333333333,
+   "exact": 0.2,
+   "seconds": 73.01215716503793,
+   "sec_per_call": 4.867477144335862,
+   "in_tokens_per_sec": 235.09783392921727
+  },
+  "fanout": {
+   "calls": 58,
+   "real_in": 21166,
+   "real_out": 285,
+   "est_in": 19558,
+   "est_out": 330,
+   "truncated": 0,
+   "in_ratio": 1.0822169956028225,
+   "out_ratio": 0.8636363636363636,
+   "precision": 0.4711111111111111,
+   "recall": 0.9666666666666667,
+   "exact": 0.13333333333333333,
+   "seconds": 96.14655945816776,
+   "sec_per_call": 1.6576993010028924,
+   "in_tokens_per_sec": 220.14308280276092
+  }
+ }
+}

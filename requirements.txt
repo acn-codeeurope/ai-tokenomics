@@ -1,0 +1,9 @@
+# Pinned to the versions the published result files were produced with.
+# Ollama itself is not a Python package — install it from https://ollama.com
+# The measured runs in this repository used Ollama server 0.34.0; bench.py
+# warns when you compare results produced under different server versions,
+# because that difference alone moved timings by 3.2-5.0x in testing.
+tiktoken==0.14.0
+langchain-ollama==1.1.0
+langgraph==1.2.11
+grandalf==0.8
